@@ -16,7 +16,7 @@ Name of the classes: Cutting Caterpillar, Cutting Weevil, Die Back, Healthy, Whi
 
 # Approach
 
-1. Data Preprocessing
+Data Preprocessing:
 
 Images loaded from structured folders using a custom PyTorch Dataset class
 
@@ -29,7 +29,7 @@ Dataset split into:
 
 Stratified splitting used to preserve class distribution
 
-2. Image Processing & Augmentation
+Image Processing & Augmentation:
 
 All images resized to 224×224 for computational efficiency.
 
